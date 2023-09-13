@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votex Dashboard</title>
+    <link rel="icon" href="/Home page/Image/VOTEX logo transparent.png" type="image/icon">
+    <link rel="stylesheet" href="newevent.css">
+        <script src="https://kit.fontawesome.com/69254298c2.js" crossorigin="anonymous"></script>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"
+        >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/Home page/Image/VOTEX logo transparent.png" alt="" >
+                    <h2>Votex 365</h2>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="/Dashboard/Dash.html" >
+                    <span class="category_icon"><img src="/Home page/Image/icons/dashboard.png" alt=""></span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="/NewEvent/newevent.html" class="active" >
+                    <span class="category_icon"><img src="/Home page/Image/icons/new event.png" alt=""></span>
+                    <h3>New Event</h3>
+                </a>
+                <a href="/results/results.html" >
+                    <span class="category_icon"><img src="/Home page/Image/icons/results.png" alt=""></i></span>
+                    <h3>Results</h3>
+                </a>
+                <a href="/Finance/Finance.html" >
+                    <span class="category_icon"><img src="/Home page/Image/icons/finance.png" alt=""></span>
+                    <h3>Finance</h3>
+                </a>
+                <a href="/Home page/Homepage.html">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div> 
+        </aside>
+        <!--Main-->
+        <main>
+            <div class="navtop">
+                <h1>New Event</h1>
+                <div class="right">
+                    <div class="top">
+                        <button id="menu-btn">
+                            <span class="material-symbols-outlined">menu</span>
+                        </button>
+                        <div class="theme-toggler">
+                            <span class="material-symbols-outlined active">light_mode</span>
+                            <span class="material-symbols-outlined">dark_mode</span>
+                        </div>
+                        <div class="profile">
+                            <div class="info">
+                                <p>Hey, <b>Daniel</b></p>
+                                <small class="text-muted">Admin</small>
+                            </div>
+                            <div class="profile-photo">
+                                <img src="/Home page/Image/1671269279655.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="insights">
+                <form action="" class="newevent_form">
+                    <h3 class="title">Event Name</h3>
+                        <div class="input_field">
+                            <input type="text" placeholder="Enter event name" />
+                        </div>
+                        <h3 class="title">Event Slogan</h3>
+                        <div class="input_field">
+                            <input type="text" placeholder="Enter event slogan" />
+                        </div>
+                        <h3 class="title">Event Picture</h3>
+                        <div class="Upload">
+                            <div>
+                                <span class="material-symbols-outlined">upload</span>
+                                <h4>Upload Picture</h4>
+                            </div>
+                        </div>
+                        <h3 class="title">Add category</h3>
+                        <div class="categoryname">
+                            <div class="input_field">
+                                <input type="text" placeholder="category name" /> 
+                            </div>
+                            <span class="material-symbols-outlined">add_circle</span>
+                        </div>
+                        
+                        <h3 class="title">Event Status</h3>
+                        <section class="radio-section">
+                            <div class="radio-list">
+                                <div class="radio-item"><input type="radio" name="radio" id="radio1"><label for="radio1">Application</label></div>
+                                <div class="radio-item"><input type="radio" name="radio" id="radio2"><label for="radio2">Approval</label></div>
+                                <div class="radio-item"><input type="radio" name="radio" id="radio3"><label for="radio3">Nomination</label></div>
+                                <div class="radio-item"><input type="radio" name="radio" id="radio4"><label for="radio4">Voting</label></div>
+                                <div class="radio-item"><input type="radio" name="radio" id="radio5"><label for="radio5">Complete</label></div>
+                            </div>
+                        </section>
+                        <div class="top_button">
+                            <a href="" class="topbtn">Add Event</a>
+                        </div>
+                </form>
+            </div>
+            
+        </main>
+    </div>
+    <script src="/results/results.js"></script>
+</body>
+</html>

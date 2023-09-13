@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votex Dashboard</title>
+    <link rel="icon" href="/Home page/Image/VOTEX logo transparent.png" type="image/icon">
+    <link rel="stylesheet" href="Dash.css">
+        <script src="https://kit.fontawesome.com/69254298c2.js" crossorigin="anonymous"></script>
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"
+        >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/Home page/Image/VOTEX logo transparent.png" alt="" >
+                    <h2>Votex 365</h2>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="/Dashboard/Dash.html" class="active">
+                    <span class="category_icon"><img src="/Home page/Image/icons/dashboard.png" alt=""></span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="/NewEvent/newevent.html" >
+                    <span class="category_icon"><img src="/Home page/Image/icons/new event.png" alt=""></span>
+                    <h3>New Event</h3>
+                </a>
+                <a href="/results/results.html">
+                    <span class="category_icon"><img src="/Home page/Image/icons/results.png" alt=""></i></span>
+                    <h3>Results</h3>
+                </a>
+                <a href="/Finance/Finance.html">
+                    <span class="category_icon"><img src="/Home page/Image/icons/finance.png" alt=""></span>
+                    <h3>Finance</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div> 
+        </aside>
+        <!--Main-->
+        <main>
+            <h1>Overview</h1>
+            <div class="top-container">
+                <div class="date">
+                    <input type="date">
+                </div>
+                <div class="top_button">
+                    <a href="/NewEvent/newevent.html" class="topbtn">New Event</a>
+                </div>
+            </div>
+            
+            <div class="insights">
+                <!--Participants-->
+                <div class="participants">
+                    <span class="material-symbols-outlined">groups</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Participants</h3>
+                            <h1>50</h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">Number of participants </small>
+                </div>
+                <!--Votes-->
+                <div class="votes">
+                    <span class="material-symbols-outlined">how_to_vote</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Votes</h3>
+                            <h1>23</h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">Number of votes </small>
+                </div>
+                <!--Amount-->
+                <div class="amount">
+                    <span class="material-symbols-outlined">account_balance_wallet</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Amount</h3>
+                            <h1>$342.00</h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">Total amount </small>
+                </div>
+            </div>
+            <!--Data-->
+            <div class="recent-order">
+                <h2>All</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Categories</th>
+                            <th>No of Contestants</th>
+                            <th>Total  Votes</th>
+                            <th>Total Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                        <tr>
+                            <td>Most Fashionable</td>
+                            <td>33</td>
+                            <td>120</td>
+                            <td>$342.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!--Right-->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-symbols-outlined active">light_mode</span>
+                    <span class="material-symbols-outlined">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Daniel</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/Home page/Image/1671269279655.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!--recent added-->
+            <div class="recent-updates">
+                <h2>Recently Added</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/Home page/Image/1671269279647.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Solomon Ayensu</b> added a new event</p>
+                            <small class="text-muted">4 minutes ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/Home page/Image/1671269279647.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Joseph Etse</b> added a new event</p>
+                            <small class="text-muted">7 minutes ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="/Home page/Image/1671269279647.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>David John</b> added a new event</p>
+                            <small class="text-muted">14 minutes ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Event Status End-->
+            <div class="event-status">
+                <h2>Event Status</h2>
+                <div class="event-container">
+                    <div class="radio-list">
+                        <div class="radio-item"><input type="radio" name="radio" id="radio1"><label for="radio1">Voting</label></div>
+                    </div>
+                    <div class="status_button">
+                        <a href="" class="status">Check Status</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Dash.js"></script>
+</body>
+</html>
